@@ -1,0 +1,161 @@
+body {
+    text-align: center;
+    color: #000000;
+    background:#ffffff;
+    margin: 0;
+    font-family: 'Open Sans', sans-sherif; /* la letra de toda la pagina */
+}
+.oscuro {
+    background: #000f08;
+    color: #ffffff;
+}
+.oscuro a{
+    background: #000f08;
+    color: #ffffff;
+    text-decoration: none;
+}
+.sweet-brown {
+    text-align: left;
+    background: #a4452c;
+    color: #ffffff;
+    padding: 50px;
+    white-space:nowrap;
+}
+.hero-section {
+    text-align: right;
+    background-image: url('../img/bg-hero.png');
+    background-repeat: no-repeat; /* no se repite si no alcanzara para cubrir la pantalla */
+    background-size: cover; /* cubre de lado a lado */
+    color: #ffffff;
+    text-shadow: 0.125em 0.25em 0.125em #707070; /* sombra para el texto */
+    padding: 6rem 6rem;
+}
+body * {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+footer {
+    padding: 50px;
+}
+.charla-speaker, .charla-texto, .evento {
+    display:inline-block; /* en linea y cada elemento con margen */
+} 
+.centrado {
+    width:75%;
+    margin:0 auto;
+}
+.charla-speaker {
+    width: 25%;
+    vertical-align: middle;
+}
+.charla-texto {
+    width: 72.5%;
+    vertical-align: middle;
+    margin-left: 2.5%;
+    white-space: normal;
+}
+h1 {
+    font-weight: 800;
+    font-size: 3.75em;
+    margin-bottom:0.25em; /* Se eligio EM por ser parte de H1, titulo principal del HTML */
+}
+h2 {
+    font-weight:700;
+}      
+.subtitulo, h4, h5 {
+    font-weight: 700;
+}
+h2 {
+    font-weight: 700;
+    font-size: 2.5em;   
+}
+h3 {
+    font-size: 2em;
+}
+h4 {
+    font-size: 1.75em;
+}
+h5 {
+    font-size: 1.25em;
+}
+#ubicacion h2 {
+    margin: 1em auto;
+}
+.sweet-brown h3, .sweet-brown h5 {
+    margin-bottom: 0.5em;
+}
+#eventos h2 {
+    margin-bottom: 1em;
+}
+#eventos h3 {
+    margin: 1em;
+}
+nav {
+    text-align:left;
+    padding: 1.25rem 4rem;
+    position:fixed; /* para que el menu sea fijo */
+    width: 100vw; /* se verá se acuerdo al ancho de la pantalla donde se navega */
+}
+nav ul {
+    list-style-type: none;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0 1em;
+    vertical-align: middle;  
+}
+.icono {
+    width:2rem;
+}
+.icono svg {
+    fill: #ffffff;
+}
+footer i {
+    margin: 0 0.25em 0.5em 0.25em;
+} 
+.simposio-vegan h1 {
+    padding: 196px 417px 0px 317px;
+    text-align: left;
+    font-weight: 700;
+    font-size: 45px;
+    letter-spacing: 0.5px;
+    width: 1085px;
+    height: 59px;
+    opacity: 1;
+    white-space:nowrap;
+} 
+.gregorio-samsa h2 {
+    text-align: left;
+    font-weight: 700;
+    font-size: 45px;
+    letter-spacing: 0.5px;
+    padding: 40px 417px 60px 317px;
+    width: 1085px;
+    height: 59px;
+    opacity: 1;
+}
+.simposio-vegan p {
+    letter-spacing: 0.5px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 25px;
+    padding: 0px 417px 34px 318px;
+}
+.gregorio-samsa p {
+    letter-spacing: 0.5px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 25px;
+    padding: 0px 417px 34px 318px;
+}
+.simposio-veganIMG {
+    padding: 60px 417px 60px 235px;
+    width: 1085px;
+    height: 565px;
+    background: 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.gregorio-samsa {
+    padding-bottom: 45px;
+}
